@@ -1,0 +1,352 @@
+[
+  {
+    "id": "",
+    "code1": "01",
+    "code2": "PET",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "02",
+    "code2": "PE-HD",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "03",
+    "code2": "PVC",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "04",
+    "code2": "PE-LD",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "05",
+    "code2": "PP",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "06",
+    "code2": "PS",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "07",
+    "code2": "O",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "ABS",
+    "code2": "ABS",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "PA",
+    "code2": "PA",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "08",
+    "code2": "Lead",
+    "description": "",
+    "category": "toxic",
+    "instructions": "Vie ongelmajätteen keräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "09",
+    "code2": "Alkaline",
+    "description": "",
+    "category": "toxic",
+    "instructions": "Vie ongelmajätteen keräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "NiCD",
+    "code2": "NiCD",
+    "description": "",
+    "category": "toxic",
+    "instructions": "Vie ongelmajätteen keräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "11",
+    "code2": "NiMH",
+    "description": "",
+    "category": "toxic",
+    "instructions": "Vie ongelmajätteen keräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "12",
+    "code2": "Li",
+    "description": "",
+    "category": "toxic",
+    "instructions": "Vie ongelmajätteen keräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "13",
+    "code2": "SO(Z)",
+    "description": "",
+    "category": "toxic",
+    "instructions": "Vie ongelmajätteen keräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "14",
+    "code2": "CZ",
+    "description": "",
+    "category": "toxic",
+    "instructions": "Vie ongelmajätteen keräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "20",
+    "code2": "PAP",
+    "description": "",
+    "category": "board",
+    "instructions": "Laita kartonkikeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "21",
+    "code2": "PAP",
+    "description": "",
+    "category": "board",
+    "instructions": "Laita kartonkikeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "22",
+    "code2": "PAP",
+    "description": "",
+    "category": "paper",
+    "instructions": "Laita paperinkeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "40",
+    "code2": "FE",
+    "description": "",
+    "category": "metal",
+    "instructions": "Laita metallinkeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "41",
+    "code2": "ALU",
+    "description": "",
+    "category": "metal",
+    "instructions": "Laita metallinkeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "50",
+    "code2": "FOR",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "51",
+    "code2": "FOR",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "60",
+    "code2": "COT",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "61",
+    "code2": "TEX",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "70",
+    "code2": "GL",
+    "description": "",
+    "category": "lasi",
+    "instructions": "Laita lasinkeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "71",
+    "code2": "GL",
+    "description": "",
+    "category": "lasi",
+    "instructions": "Laita lasinkeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "72",
+    "code2": "GL",
+    "description": "",
+    "category": "lasi",
+    "instructions": "Laita lasinkeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "73",
+    "code2": "GL",
+    "description": "",
+    "category": "lasi",
+    "instructions": "Laita lasinkeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "74",
+    "code2": "GL",
+    "description": "",
+    "category": "lasi",
+    "instructions": "Laita lasinkeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "81",
+    "code2": "PapPet",
+    "description": "",
+    "category": "board",
+    "instructions": "Laita kartonkikeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "84",
+    "code2": "C/PAP",
+    "description": "",
+    "category": "board",
+    "instructions": "Laita kartonkikeräykseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "87",
+    "code2": "CSL",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "90",
+    "code2": "C/LDPE",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "91",
+    "code2": "C/LDPE",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "",
+    "examples": ""
+  }
+]
