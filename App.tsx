@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
     },
     body: {
       justifyContent: "flex-start",
+        backgroundColor: "#fff",
     },
   searchField: {
       height: 40,
