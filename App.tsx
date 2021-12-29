@@ -44,7 +44,7 @@ export default function App() {
           <View style={styles.resultView}>
               <Image style={styles.codeImage} source={images["01"]} />
               <View style={styles.info}>
-                  <Text>Etsi pakkauksesta viereisin esimerkin kaltainen kuva ja syötä ylläolevaan tekstikenttään joko kuvasta löytyvä numero tai teksti, esim. 01 tai pet</Text>
+                  <Text>Etsi pakkauksesta viereisen esimerkin kaltainen kuva ja syötä ylläolevaan tekstikenttään joko kuvasta löytyvä numero tai teksti, esim. 01 tai pet</Text>
               </View>
 
           </View>
