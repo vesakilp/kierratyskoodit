@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, View, TextInput, Image } from "react-native";
+import * as Linking from "expo-linking";
 import codes from "./assets/codes.json";
 
 interface Code {
@@ -20,20 +21,23 @@ export default function App() {
         setSearchResult(codes.find(codeObj => codeObj.code1.toLowerCase() === searchTerm?.toLowerCase() || codeObj.code2.toLowerCase() === searchTerm?.toLowerCase()));
     }
     const imageFile = searchResult?.code1 ? images[searchResult?.code1.toLowerCase()] : "";
+    const openEmailLink = () => {
+        Linking.openURL("mailto: kierratyskoodit@gmail.com");
+    };
   return (
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.headerText} adjustsFontSizeToFit={true}>kierratyskoodit.fi</Text>
       </View>
       <View style={styles.body}>
-        <TextInput style={styles.searchField} onChange={doSearch} placeholder="Syötä kierrätyskoodi"/>
+        <TextInput style={styles.searchField} onChange={doSearch} placeholder="Syötä kierrätyskoodi, esim. 01 tai pet"/>
         <View style={styles.resultView}>
             <Image style={styles.codeImage} source={imageFile} />
             <Text>{searchResult?.instructions}</Text>
         </View>
       </View>
         <View style={styles.footer}>
-            <Text style={styles.white}>&copy;Vesa Kilpiäinen</Text>
+            <Text style={styles.white} onPress={openEmailLink}>Anna palautetta:<br/>kierratyskoodit@gmail.com</Text>
         </View>
     </View>
   );
@@ -89,7 +93,8 @@ const styles = StyleSheet.create({
         justifyContent: "center",
     },
     white: {
-      color: "#fff",
+      color: "#999",
+        fontWeight: "bold",
     }
 });
 
