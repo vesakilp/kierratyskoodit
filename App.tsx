@@ -26,7 +26,7 @@ export default function App() {
         <Text style={styles.headerText} adjustsFontSizeToFit={true}>kierratyskoodit.fi</Text>
       </View>
       <View style={styles.body}>
-        <TextInput style={styles.searchField} onChange={doSearch} placeholder="Syötä kierrätyskoodi"/>
+        <TextInput style={styles.searchField} onChange={doSearch} placeholder="Syötä kierrätyskoodi, esim. 01 tai pet"/>
         <View style={styles.resultView}>
             <Image style={styles.codeImage} source={imageFile} />
             <Text>{searchResult?.instructions}</Text>
