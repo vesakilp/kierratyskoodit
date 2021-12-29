@@ -24,6 +24,7 @@ export default function App() {
     const openEmailLink = () => {
         Linking.openURL("mailto: kierratyskoodit@gmail.com");
     };
+
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -31,10 +32,23 @@ export default function App() {
       </View>
       <View style={styles.body}>
         <TextInput style={styles.searchField} onChange={doSearch} placeholder="Syötä kierrätyskoodi, esim. 01 tai pet"/>
-        <View style={styles.resultView}>
-            <Image style={styles.codeImage} source={imageFile} />
-            <Text>{searchResult?.instructions}</Text>
-        </View>
+          {!!searchResult &&
+              <View style={styles.resultView}>
+                  <Image style={styles.codeImage} source={imageFile} />
+                  <View style={styles.info}>
+                    <Text>{searchResult?.instructions}</Text>
+                  </View>
+              </View>
+          }
+          {!searchResult &&
+          <View style={styles.resultView}>
+              <Image style={styles.codeImage} source={images["01"]} />
+              <View style={styles.info}>
+                  <Text>Etsi pakkauksesta viereisin esimerkin kaltainen kuva ja syötä ylläolevaan tekstikenttään joko kuvasta löytyvä numero tai teksti, esim. 01 tai pet</Text>
+              </View>
+
+          </View>
+          }
       </View>
         <View style={styles.footer}>
             <Text style={styles.white} onPress={openEmailLink}>Anna palautetta:<br/>kierratyskoodit@gmail.com</Text>
@@ -63,8 +77,15 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     body: {
-      justifyContent: "flex-start",
+      justifyContent: "center",
         backgroundColor: "#fff",
+        height: "60%",
+    },
+    info: {
+      width: 190,
+        height: 100,
+        justifyContent: "center",
+        marginLeft: 10
     },
   searchField: {
       height: 40,
@@ -77,9 +98,8 @@ const styles = StyleSheet.create({
         display: "flex",
         flexDirection: "row",
         alignItems: "center",
-        justifyContent: "space-around",
         padding: 15,
-        width: 270,
+        width: 300,
     },
     codeImage: {
         width: 75,
