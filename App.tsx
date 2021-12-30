@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { StyleSheet, Text, View, TextInput, Image } from "react-native";
 import * as Linking from "expo-linking";
 import codes from "./assets/codes.json";
+import { Helmet } from "react-helmet";
 
 interface Code {
     id: string;
@@ -27,6 +28,10 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+        <Helmet>
+            <title>kierratyskoodit.fi</title>
+            <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="66748d7b-ac76-4bd6-8097-f81a783fd427" data-blockingmode="auto" type="text/javascript"></script>
+        </Helmet>
       <View style={styles.header}>
         <Text style={styles.headerText} adjustsFontSizeToFit={true}>kierratyskoodit.fi</Text>
       </View>
