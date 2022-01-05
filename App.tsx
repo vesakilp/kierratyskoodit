@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   },
     header: {
       justifyContent: "center",
-      backgroundColor: "#03fc62",
+      backgroundColor: "#44AF44",
         width: "100%",
         height: "20%",
         textAlign: "center",
@@ -128,12 +128,12 @@ const styles = StyleSheet.create({
     footer: {
         height: "20%",
         width: "100%",
-        backgroundColor: "#03fc62",
+        backgroundColor: "#44AF44",
         textAlign: "center",
         justifyContent: "center",
     },
     white: {
-      color: "#999",
+      color: "#fff",
         fontWeight: "bold",
     }
 });
