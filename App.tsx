@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, TextInput, Image } from "react-native";
 import * as Linking from "expo-linking";
 import codes from "./assets/codes.json";
 import { Helmet } from "react-helmet";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 interface Code {
     id: string;
@@ -25,6 +27,20 @@ export default function App() {
     const openEmailLink = () => {
         Linking.openURL("mailto: kierratyskoodit@gmail.com");
     };
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyBCmxSDlm3a7Z57OVI4hS7y-_4pSVZsgz4",
+        authDomain: "kierratyskoodit-4e46c.firebaseapp.com",
+        projectId: "kierratyskoodit-4e46c",
+        storageBucket: "kierratyskoodit-4e46c.appspot.com",
+        messagingSenderId: "1078267147192",
+        appId: "1:1078267147192:web:05e6f33381bde7a6f8154d",
+        measurementId: "G-K3XN30LW71"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
 
   return (
     <View style={styles.container}>
@@ -51,7 +67,6 @@ export default function App() {
               <View style={styles.info}>
                   <Text>Etsi pakkauksesta viereisen esimerkin kaltainen kuva ja syötä siitä löytyvä numero tai teksti (esim. 01 tai pet) ylläolevaan tekstikenttään</Text>
               </View>
-
           </View>
           }
       </View>
