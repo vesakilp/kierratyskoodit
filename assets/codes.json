@@ -1,12 +1,82 @@
 [
   {
     "id": "",
+    "code1": "1",
+    "code2": "PET",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "01",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "2",
+    "code2": "PE-HD",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "02",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "3",
+    "code2": "PVC",
+    "description": "",
+    "category": "misc",
+    "instructions": "Laita sekajätteeseen",
+    "img": "03",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "4",
+    "code2": "PE-LD",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "04",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "5",
+    "code2": "PP",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "05",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "6",
+    "code2": "PS",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "06",
+    "examples": ""
+  },
+  {
+    "id": "",
+    "code1": "7",
+    "code2": "O",
+    "description": "",
+    "category": "plastic",
+    "instructions": "Laita muovijätteeseen",
+    "img": "07",
+    "examples": ""
+  },
+  {
+    "id": "",
     "code1": "01",
     "code2": "PET",
     "description": "",
     "category": "plastic",
     "instructions": "Laita muovijätteeseen",
-    "img": "",
+    "img": "01",
     "examples": ""
   },
   {
@@ -16,7 +86,7 @@
     "description": "",
     "category": "plastic",
     "instructions": "Laita muovijätteeseen",
-    "img": "",
+    "img": "02",
     "examples": ""
   },
   {
@@ -26,7 +96,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "03",
     "examples": ""
   },
   {
@@ -36,7 +106,7 @@
     "description": "",
     "category": "plastic",
     "instructions": "Laita muovijätteeseen",
-    "img": "",
+    "img": "04",
     "examples": ""
   },
   {
@@ -46,7 +116,7 @@
     "description": "",
     "category": "plastic",
     "instructions": "Laita muovijätteeseen",
-    "img": "",
+    "img": "05",
     "examples": ""
   },
   {
@@ -56,7 +126,7 @@
     "description": "",
     "category": "plastic",
     "instructions": "Laita muovijätteeseen",
-    "img": "",
+    "img": "06",
     "examples": ""
   },
   {
@@ -66,7 +136,7 @@
     "description": "",
     "category": "plastic",
     "instructions": "Laita muovijätteeseen",
-    "img": "",
+    "img": "07",
     "examples": ""
   },
   {
@@ -76,7 +146,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "ABS",
     "examples": ""
   },
   {
@@ -86,7 +156,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "PA",
     "examples": ""
   },
   {
@@ -96,7 +166,7 @@
     "description": "",
     "category": "toxic",
     "instructions": "Vie ongelmajätteen keräykseen",
-    "img": "",
+    "img": "08",
     "examples": ""
   },
   {
@@ -106,7 +176,7 @@
     "description": "",
     "category": "toxic",
     "instructions": "Vie ongelmajätteen keräykseen",
-    "img": "",
+    "img": "09",
     "examples": ""
   },
   {
@@ -116,7 +186,7 @@
     "description": "",
     "category": "toxic",
     "instructions": "Vie ongelmajätteen keräykseen",
-    "img": "",
+    "img": "NiCD",
     "examples": ""
   },
   {
@@ -126,7 +196,7 @@
     "description": "",
     "category": "toxic",
     "instructions": "Vie ongelmajätteen keräykseen",
-    "img": "",
+    "img": "11",
     "examples": ""
   },
   {
@@ -136,7 +206,7 @@
     "description": "",
     "category": "toxic",
     "instructions": "Vie ongelmajätteen keräykseen",
-    "img": "",
+    "img": "12",
     "examples": ""
   },
   {
@@ -146,7 +216,7 @@
     "description": "",
     "category": "toxic",
     "instructions": "Vie ongelmajätteen keräykseen",
-    "img": "",
+    "img": "13",
     "examples": ""
   },
   {
@@ -156,7 +226,7 @@
     "description": "",
     "category": "toxic",
     "instructions": "Vie ongelmajätteen keräykseen",
-    "img": "",
+    "img": "14",
     "examples": ""
   },
   {
@@ -166,7 +236,7 @@
     "description": "",
     "category": "board",
     "instructions": "Laita kartonkikeräykseen",
-    "img": "",
+    "img": "20",
     "examples": ""
   },
   {
@@ -176,7 +246,7 @@
     "description": "",
     "category": "board",
     "instructions": "Laita kartonkikeräykseen",
-    "img": "",
+    "img": "21",
     "examples": ""
   },
   {
@@ -186,7 +256,7 @@
     "description": "",
     "category": "paper",
     "instructions": "Laita paperinkeräykseen",
-    "img": "",
+    "img": "22",
     "examples": ""
   },
   {
@@ -196,7 +266,7 @@
     "description": "",
     "category": "metal",
     "instructions": "Laita metallinkeräykseen",
-    "img": "",
+    "img": "40",
     "examples": ""
   },
   {
@@ -206,7 +276,7 @@
     "description": "",
     "category": "metal",
     "instructions": "Laita metallinkeräykseen",
-    "img": "",
+    "img": "41",
     "examples": ""
   },
   {
@@ -216,7 +286,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "50",
     "examples": ""
   },
   {
@@ -226,7 +296,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "51",
     "examples": ""
   },
   {
@@ -236,7 +306,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "60",
     "examples": ""
   },
   {
@@ -246,7 +316,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "61",
     "examples": ""
   },
   {
@@ -256,7 +326,7 @@
     "description": "",
     "category": "lasi",
     "instructions": "Laita lasinkeräykseen",
-    "img": "",
+    "img": "70",
     "examples": ""
   },
   {
@@ -266,7 +336,7 @@
     "description": "",
     "category": "lasi",
     "instructions": "Laita lasinkeräykseen",
-    "img": "",
+    "img": "71",
     "examples": ""
   },
   {
@@ -276,7 +346,7 @@
     "description": "",
     "category": "lasi",
     "instructions": "Laita lasinkeräykseen",
-    "img": "",
+    "img": "72",
     "examples": ""
   },
   {
@@ -286,7 +356,7 @@
     "description": "",
     "category": "lasi",
     "instructions": "Laita lasinkeräykseen",
-    "img": "",
+    "img": "73",
     "examples": ""
   },
   {
@@ -296,7 +366,7 @@
     "description": "",
     "category": "lasi",
     "instructions": "Laita lasinkeräykseen",
-    "img": "",
+    "img": "74",
     "examples": ""
   },
   {
@@ -306,7 +376,7 @@
     "description": "",
     "category": "board",
     "instructions": "Laita kartonkikeräykseen",
-    "img": "",
+    "img": "81",
     "examples": ""
   },
   {
@@ -316,7 +386,7 @@
     "description": "",
     "category": "board",
     "instructions": "Laita kartonkikeräykseen",
-    "img": "",
+    "img": "84",
     "examples": ""
   },
   {
@@ -326,7 +396,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "87",
     "examples": ""
   },
   {
@@ -336,7 +406,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "90",
     "examples": ""
   },
   {
@@ -346,7 +416,7 @@
     "description": "",
     "category": "misc",
     "instructions": "Laita sekajätteeseen",
-    "img": "",
+    "img": "91",
     "examples": ""
   }
 ]

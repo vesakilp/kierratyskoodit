@@ -23,7 +23,7 @@ export default function App() {
         const searchTerm = event.target.value;
         setSearchResult(codes.find(codeObj => codeObj.code1.toLowerCase() === searchTerm?.toLowerCase() || codeObj.code2.toLowerCase() === searchTerm?.toLowerCase()));
     }
-    const imageFile = searchResult?.code1 ? images[searchResult?.code1.toLowerCase()] : "";
+    const imageFile = searchResult?.img ? images[searchResult?.img.toLowerCase()] : "";
     const openEmailLink = () => {
         Linking.openURL("mailto: kierratyskoodit@gmail.com");
     };
