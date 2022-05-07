@@ -1,24 +1,28 @@
-  // .github/workflows/staging.yml
-
-  name: Expo Publish on Beta
-  on:
-    push:
-      branches:
-        - develop
-  jobs:
-    publish:
-      name: Install and publish
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v1
-        - uses: actions/setup-node@v1
-          with:
-            node-version: 12.x
-        - uses: expo/expo-github-action@v5
-          with:
-            expo-version: 3.x
-            expo-username: ${{ secrets.EXPO_CLI_USERNAME }}
-            expo-password: ${{ secrets.EXPO_CLI_PASSWORD }}
-            expo-cache: true
-        - run: yarn
-        - run: expo publish --release-channel beta
+---
+jobs:
+  publish:
+    name: "Install and publish"
+    runs-on: ubuntu-latest
+    steps:
+      -
+        uses: actions/checkout@v1
+      -
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      -
+        uses: expo/expo-github-action@v5
+        with:
+          expo-cache: true
+          expo-password: "${{ secrets.EXPO_CLI_PASSWORD }}"
+          expo-username: "${{ secrets.EXPO_CLI_USERNAME }}"
+          expo-version: 3.x
+      -
+        run: yarn
+      -
+        run: "expo publish --release-channel beta"
+name: "Expo Publish on Beta"
+true:
+  push:
+    branches:
+      - develop
