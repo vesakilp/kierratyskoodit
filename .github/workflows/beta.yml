@@ -1,28 +1,36 @@
 ---
-jobs:
-  publish:
-    name: "Install and publish"
-    runs-on: ubuntu-latest
-    steps:
-      -
-        uses: actions/checkout@v1
-      -
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
-      -
-        uses: expo/expo-github-action@v5
-        with:
-          expo-cache: true
-          expo-password: "${{ secrets.EXPO_CLI_PASSWORD }}"
-          expo-username: "${{ secrets.EXPO_CLI_USERNAME }}"
-          expo-version: 3.x
-      -
-        run: yarn
-      -
-        run: "expo publish --release-channel beta"
-name: "Expo Publish on Beta"
-true:
-  push:
-    branches:
-      - develop
+deploy-web-staging: ~
+runs-on: ubuntu-latest
+steps:
+  -
+    name: Checkout
+    uses: actions/checkout@v2
+  -
+    name: "Setup .npmrc and use node 14.15.1"
+    uses: actions/setup-node@v1
+    with:
+      node-version: "14.15.1"
+  -
+    name: "Expo Web"
+    uses: expo/expo-github-action@v5
+    with:
+      expo-cache: true
+      expo-password: "${{ secrets.EXPO_CLI_PASSWORD }}"
+      expo-username: "${{ secrets.EXPO_CLI_USERNAME }}"
+  -
+    if: "steps.yarn-cache.outputs.cache-hit != 'true'"
+    name: "Install dependencies"
+    run: yarn
+  -
+    name: "Build Expo Web"
+    run: "expo build:web"
+    working-directory: ./packages/app
+  -
+    name: "Vercel Deploy"
+    uses: amondnet/vercel-action@v20.0.0
+    with:
+      github-token: "${{ secrets.GITHUB_TOKEN }}"
+      scope: TEAM
+      vercel-org-id: VERCEL_ORG_ID
+      vercel-project-id: VERCEL_PROJECT_ID
+      vercel-token: "${{ secrets.VERCEL_TOKEN }}"
