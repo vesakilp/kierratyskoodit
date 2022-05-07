@@ -28,7 +28,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerText} adjustsFontSizeToFit={true}>kierratyskoodit.fi</Text>
+        <Text style={styles.headerText} adjustsFontSizeToFit={true}>kierratyskoodit.fi BETA</Text>
       </View>
       <View style={styles.body}>
         <TextInput keyboardType="numeric" style={styles.searchField} onChange={doSearch} placeholder="Syötä kierrätyskoodi, esim. 01 tai pet"/>
