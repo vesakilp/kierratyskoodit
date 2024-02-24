@@ -71,7 +71,7 @@ export default function App() {
           }
       </View>
         <View style={styles.footer}>
-            <Text style={styles.white} onPress={openEmailLink}>Anna palautetta:<br/>kierratyskoodit@gmail.com</Text>
+            <Text style={styles.footerText} onPress={openEmailLink}>Anna palautetta:<br/>kierratyskoodit@gmail.com</Text>
         </View>
     </View>
   );
@@ -85,16 +85,19 @@ const styles = StyleSheet.create({
       justifyContent: "space-between",
   },
     header: {
+      flexDirection: "row",
       justifyContent: "center",
       backgroundColor: "#44AF44",
-        width: "100%",
-        height: "20%",
-        textAlign: "center",
+      width: "100%",
+      height: "20%"
     },
     headerText: {
+        display: "flex",
         color: "#fff",
         fontSize: 40,
         fontWeight: "bold",
+        flexDirection: "column",
+        justifyContent: "center"
     },
     body: {
       justifyContent: "center",
@@ -130,12 +133,18 @@ const styles = StyleSheet.create({
         width: "100%",
         backgroundColor: "#44AF44",
         textAlign: "center",
+        flexDirection: "row",
         justifyContent: "center",
     },
-    white: {
+    footerText: {
+      display: "flex",
       color: "#fff",
-        fontWeight: "bold",
-    }
+      fontSize: 12,
+      fontWeight: "bold",
+      flexDirection: "column",
+      justifyContent: "center",
+      textAlign: "center"
+  },
 });
 
 const images: {[key: string]: string} = {
