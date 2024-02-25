@@ -46,7 +46,7 @@ export default function App() {
     <View style={styles.container}>
         <Helmet>
             <title>kierratyskoodit.fi beta</title>
-            <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="66748d7b-ac76-4bd6-8097-f81a783fd427" data-blockingmode="auto" type="text/javascript"></script>
+            <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/3eab82e5f6adcf9ad640d7d4/script.js"></script>
         </Helmet>
       <View style={styles.header}>
         <Text style={styles.headerText} adjustsFontSizeToFit={true}>kierratyskoodit.fi</Text>
