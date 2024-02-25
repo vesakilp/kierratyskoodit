@@ -5,3 +5,4 @@ node_modules
 web-build
 .vercel
 kierratyskoodit.iml
+/dist

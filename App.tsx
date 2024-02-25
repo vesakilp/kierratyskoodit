@@ -45,7 +45,7 @@ export default function App() {
   return (
     <View style={styles.container}>
         <Helmet>
-            <title>kierratyskoodit.fi beta</title>
+            <title>kierratyskoodit.fi</title>
             <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/3eab82e5f6adcf9ad640d7d4/script.js"></script>
         </Helmet>
       <View style={styles.header}>
