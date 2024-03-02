@@ -47,6 +47,7 @@ export default function App() {
         <Helmet>
             <title>kierratyskoodit.fi</title>
             <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/3eab82e5f6adcf9ad640d7d4/script.js"></script>
+            <meta name="description" content="Verkkosovellus, jonka avulla voit selvittää miten erilaisilla kierrätyskoodeille merkityt pakkaukset tulisi kierrättää."></meta>
         </Helmet>
       <View style={styles.header}>
         <Text style={styles.headerText} adjustsFontSizeToFit={true}>kierratyskoodit.fi</Text>
@@ -87,7 +88,7 @@ const styles = StyleSheet.create({
     header: {
       flexDirection: "row",
       justifyContent: "center",
-      backgroundColor: "#44AF44",
+      backgroundColor: "#276327",
       width: "100%",
       height: "20%"
     },
@@ -131,7 +132,7 @@ const styles = StyleSheet.create({
     footer: {
         height: "20%",
         width: "100%",
-        backgroundColor: "#44AF44",
+        backgroundColor: "#276327",
         textAlign: "center",
         flexDirection: "row",
         justifyContent: "center",
