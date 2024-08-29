@@ -72,7 +72,7 @@ export default function App() {
           }
       </View>
         <View style={styles.footer}>
-            <Text style={styles.footerText} onPress={openEmailLink}>Anna palautetta:<br/>kierratyskoodit@gmail.com</Text>
+            <Text style={styles.footerText} onPress={openEmailLink}>Anna palautetta:{"\n"}kierratyskoodit@gmail.com</Text>
         </View>
     </View>
   );
